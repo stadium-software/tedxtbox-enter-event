@@ -26,7 +26,6 @@ let ev = "keypress";
 let callback = ~.Parameters.Input.Callback;
 elParent.addEventListener(ev, function (e) {
     if (e.keyCode === 13) {
-        console.log(e.target);
         scope[callback]();
     }
 });
