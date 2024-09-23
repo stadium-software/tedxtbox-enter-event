@@ -1,6 +1,6 @@
 # TextBox Enter Event
 
-Using the Enter key to submit a value in a TextBox is a common interaction pattern. This module allows you to define a script to run when users perform this action. 
+Using the "Enter" key to submit a value in a TextBox is a common interaction pattern. This module allows you to define a script to run when the cursor users enter some text in a TextBox and hit the "Enter" key. 
 
 # Version
 1.0 - initial
@@ -35,14 +35,14 @@ elParent.addEventListener(ev, function (e) {
 1. Drag a *TextBox* to the page
 2. Add a unique classname to the *TextBox* classes property (e.g. keypress-textbox)
 
-## Page Script
-1. Create a script under the page and name it anything you like (e.g. TextBoxProcessing)
+## Custom Event Handler Page Script
+1. Create a script under the page and name it anything you like (e.g. EnterKeyPressCallback)
 2. Add actions to the script to process the event
 
 ## Page.Load
 1. Drag the "EnterKeyPressEvent" script into the Page.Load event handler
 2. Provide values for the script input parameters
-   1. Callback: The name of the page script (e.g. TextBoxProcessing)
+   1. Callback: The name of the page script (e.g. EnterKeyPressCallback)
    2. TextBoxClass: The unique classname you added to the TextBox (e.g. keypress-textbox)
 
 ## Working with Stadium Repos
