@@ -2,6 +2,8 @@
 
 Using the "Enter" key to submit a value in a TextBox is a common interaction pattern. This module allows you to define a script to run when the cursor users enter some text in a TextBox and hit the "Enter" key. 
 
+![](images/View.gif)
+
 # Version
 1.0 - initial
 
