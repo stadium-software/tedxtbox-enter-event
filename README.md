@@ -18,7 +18,7 @@ Using the "Enter" key to submit a value in a TextBox is a common interaction pat
    1. Callback
    2. TextBoxClass
 3. Drag a *JavaScript* action into the script
-4. Add the Javascript below into the JavaScript code property
+4. Add the Javascript below unchanged into the JavaScript code property
 ```javascript
 /* Stadium Script v1.0 https://github.com/stadium-software/utils-textbox-enter-event */
 let scope = this,
